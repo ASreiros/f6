@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./img/floor.jpg);
+}
+body h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 36px;
+  margin-top: 200px;
+  text-align: center;
+}
+body p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  text-align: center;
+  width: 40%;
+  margin: 20px auto;
+}
+body form {
+  background-color: black;
+  width: 35%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5%;
+  font-size: 0;
+}
+body form input {
+  width: 65%;
+  line-height: 32px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+body form input::placeholder {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+body form button {
+  margin-left: calc(5% - 15px);
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  width: 30%;
+  line-height: 32px;
+  background-color: #0EAAE7;
+  border-radius: 5%;
+}
+
+/*# sourceMappingURL=output.css.map */
